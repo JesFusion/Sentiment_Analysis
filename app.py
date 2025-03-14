@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # loading the saved model and vectorizer...
 
-naive_bayes_model = joblib.load("C:/Users/USER/Downloads/Sentiment_analysis_project/sentiment_analysis_model.pkl")
+naive_bayes_model = joblib.load("sentiment_analysis_model.pkl")
 
 vectorization_algo = joblib.load("C:/Users/USER/Downloads/Sentiment_analysis_project/vectorization_algo.pkl")
 
