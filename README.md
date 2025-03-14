@@ -8,5 +8,6 @@ This is a sentiment analysis Project built using Multinomial Naïve Bayes. It cl
 3. Use Postman or cURL to test `/analyze_sentiment` endpoint.
 
 ## Future Improvements
+- Improve model accuracy (currently at `87%`)
 - Deploy API online
 - Experiment with deep learning models (BERT, LSTMs)
