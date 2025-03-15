@@ -10,13 +10,11 @@ This is a sentiment analysis Project built using **Multinomial Naïve Bayes**. I
 ## How to Run the Flask API `(app.py)`
 1.  Install **Flask**: `pip install flask`
 2.  Download the trained model & vectorizer:
-- Model: sentiment_analysis_model.pkl
-- Vectorizer: vectorization_algo.pkl
-Insert their file paths in the script where it says "path_to_model" and "path_to_vectorizer"
-5. `sentiment_analysis_model.pkl` and the vectorizer `vectorization_algo.pkl`
-6.  Insert the link to the model and vectorizer at `path_to_model` and `path_to_vectorizer` respectively
-7. Run the code to start the **server**: `python app.py`
-8. Use Postman or cURL to test `/analyze_sentiment` endpoint.
+- Model: `sentiment_analysis_model.pkl`
+- Vectorizer: `vectorization_algo.pkl`
+3. Insert the link to the model and vectorizer at `path_to_model` and `path_to_vectorizer` respectively
+4. Run the code to start the **server**: `python app.py`
+5. Use Postman or cURL to test `/analyze_sentiment` endpoint.
 
 
 _Feel free to modify the codes as you please_
