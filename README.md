@@ -18,6 +18,6 @@ This is a sentiment analysis Project built using **Multinomial Naïve Bayes**. I
 _Feel free to modify the codes as you please_
 
 ## Future Improvements
-- Improve model accuracy (currently at `87%`)
+- Improve model accuracy (currently at `86.24%`)
 - Deploy API online
 - Experiment with deep learning models (BERT, LSTMs)
