@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 # loading the saved model and vectorizer...
 
-naive_bayes_model = joblib.load("https://github.com/JesFusion/Sentiment_Analysis/blob/main/sentiment_analysis_model.pkl")
+naive_bayes_model = joblib.load("path_to_model")
 
-vectorization_algo = joblib.load("https://github.com/JesFusion/Sentiment_Analysis/blob/main/vectorization_algo.pkl")
+vectorization_algo = joblib.load("path_to_vectorizer")
 
 @app.route("/", methods = ['GET'])
 def home():
